@@ -18,9 +18,9 @@ public class DownFile {
 	@RequestMapping("/downFile.do")
 	public void downFile(HttpServletResponse response) {
 		try {
-			InputStream is = new FileInputStream("F://a.txt");
+			InputStream is = new FileInputStream("F:\\BaiduYunDownload\\战狼2.mp4");
 			response.setContentType("application/octet-stream");
-            response.setHeader("Content-Disposition", "attachment;filename=" + "a.txt");
+            response.setHeader("Content-Disposition", "attachment;filename=" + "战狼2.mp4");
 			OutputStream os = response.getOutputStream();
 			byte[] buf = new byte[1024*1024*10];
 			int len = 0;
