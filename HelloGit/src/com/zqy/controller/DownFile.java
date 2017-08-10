@@ -11,6 +11,11 @@ import javax.servlet.http.HttpServletResponse;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+/**
+ * 下载 Controller
+ * @author qiyin.zuo
+ * @date 2017年8月10日
+ */
 @Controller
 public class DownFile {
 
