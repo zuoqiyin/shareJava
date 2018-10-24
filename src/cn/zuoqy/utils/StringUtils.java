@@ -6,4 +6,5 @@ package cn.zuoqy.utils;
 
 public class StringUtils {
     // TODO: 常用字符串类的一些功能
+
 }
